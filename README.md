@@ -1,6 +1,6 @@
 # ABC Player - Group 1
 
-## Our group consists of the following students:
+## Our Group:
 - Christopher Daffinrud
 - Ole Eirik Solberg Seljordslia
 - Aditi Deshpande
