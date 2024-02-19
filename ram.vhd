@@ -1,21 +1,19 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity RAM is
     generic(
         addr_width : integer := 8;
         data_width : integer := 8;
-        block_size : integer := 8;
+        block_size : integer := 8
     );
 port (
     clk : in std_logic;
     wrt : in std_logic;
-    addr : in std_logic_vector(addr_width-1 downto 0);
+    address : in integer;
     data_in : in std_logic_vector(data_width-1 downto 0);
-    data_out : out std_logic_vector(data_width-1 downto 0);
+    data_out : out std_logic_vector(data_width-1 downto 0)
 );
 end RAM;
 
@@ -31,11 +29,13 @@ begin
     begin
         if rising_edge(clk) then
             if wrt = '1' then
-                ram(to_integer(unsigned(addr))) <= data_in;
+                ram(address) <= data_in;
             end if;
         end if;
     end process;
 
-    data_out <= ram(to_integer(unsigned(addr)));
+    data_out <= ram(address);
 
 end Behaviour;
+
+
