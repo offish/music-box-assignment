@@ -16,11 +16,11 @@ architecture arch of rs232 is
 begin
 
 -- Baud generator
-    Baud_Generator: entity work.baud_generator(arch)
+    Baud_Generator: entity work.baud_generator(behaviour)
         port map (  clk=>clk, reset=>reset, to_s_tick=>s_tick );
 
 -- UART 
-    UART: entity work.uart_rx(arch)
+    UART: entity work.uart_rx(behaviour)
         port map (  clk=>clk, reset=>reset, rx=>rx, dout=>output,
                     s_tick=>s_tick, rx_done_tick=>rx_done_tick );
     
