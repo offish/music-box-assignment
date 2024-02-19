@@ -4,7 +4,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 entity mod_m_counter_flip_flop is
    generic(
-      N: integer := 18;     -- after code converted from ascii
+      N: integer := 18     -- after code converted from ascii
   );
    port(
       clock, reset: in std_logic;

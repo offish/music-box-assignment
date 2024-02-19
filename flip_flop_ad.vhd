@@ -4,16 +4,16 @@ use ieee.std_logic_1164.all;
 
 entity ff is
     port(
-        clock,reset,zero_tick,mute: in std_logic; --inputs
-        square_wave_loudspeaker : out std_logic; -- output, all one bit
+        clock, reset ,zero_tick,mute: in std_logic; --inputs
+        square_wave_loudspeaker : out std_logic -- output, all one bit
     );
     end ff;
 
 architecture arch of ff is
-    r_reg,r_next : std_logic;
+    signal r_reg,r_next : std_logic;
     begin
         -- the code for the flip flop
-    process(clock,reset) -indicates that everything executes sequentially-
+    process(clock,reset) --indicates that everything executes sequentially
     begin
     if(reset = '0') then
         r_reg <='0';

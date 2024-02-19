@@ -1,4 +1,3 @@
--- Listing 7.1
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -16,14 +15,13 @@ entity uart_rx is
    );
 end uart_rx ;
 
-architecture arch of uart_rx is
+architecture behaviour of uart_rx is
    type state_type is (idle, start, data, stop);
    signal state_reg, state_next: state_type;
    signal s_reg, s_next: unsigned(3 downto 0);
    signal n_reg, n_next: unsigned(2 downto 0);
    signal b_reg, b_next: std_logic_vector(7 downto 0);
 begin
-   -- FSMD state & data registers
    process(clk,reset)
    begin
       if reset='1' then
@@ -38,7 +36,6 @@ begin
          b_reg <= b_next;
       end if;
    end process;
-   -- next-state logic & data path functional units/routing
    process(state_reg,s_reg,n_reg,b_reg,s_tick,rx)
    begin
       state_next <= state_reg;
@@ -88,4 +85,4 @@ begin
       end case;
    end process;
    dout <= b_reg;
-end arch;
+end behaviour;
