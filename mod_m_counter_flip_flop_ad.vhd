@@ -24,14 +24,14 @@ begin
    begin
       if (reset='1') then
          r_reg <= (others=>'0');
-      elsif rising_edge(clock) then --rising edge
+      elsif (clock'event and clock='1') then --rising edge
          r_reg <= r_next;
       end if;
    end process;
    -- next-state logic
-   r_next <= unsigned(mod_counter_input) when r_reg=0 else
-             r_reg - 1;
+   r_next <= (others=>'0') when r_reg>=(unsigned(mod_counter_input)-1) else
+             r_reg + 1;
    -- output logic
    q <= std_logic_vector(r_reg);
-  zero_tick <= '1' when r_reg=0 else '0';
+  zero_tick <= '1' when r_reg>=(unsigned(mod_counter_input)-1) else '0';
 end arch;
