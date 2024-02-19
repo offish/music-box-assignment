@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSMD_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSMD_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="257,091.148333 us"></ZoomStartTime>
+      <ZoomEndTime time="257,106.108334 us"></ZoomEndTime>
+      <Cursor1Time time="257,103.615000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="245"></NameColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/FSMD_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/bit_period" type="other">
+      <obj_property name="ElementShortName">bit_period</obj_property>
+      <obj_property name="ObjectShortName">bit_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/rx_data_ascii_a" type="array">
+      <obj_property name="ElementShortName">rx_data_ascii_a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_ascii_a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/loudspeaker" type="logic">
+      <obj_property name="ElementShortName">loudspeaker</obj_property>
+      <obj_property name="ObjectShortName">loudspeaker</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/mcnt_in" type="array">
+      <obj_property name="ElementShortName">mcnt_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mcnt_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/ascii_transmitted" type="array">
+      <obj_property name="ElementShortName">ascii_transmitted[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ascii_transmitted[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/mcnt_tick" type="logic">
+      <obj_property name="ElementShortName">mcnt_tick</obj_property>
+      <obj_property name="ObjectShortName">mcnt_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/code_converter_unit/ram_data" type="array">
+      <obj_property name="ElementShortName">ram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/code_converter_unit/mcnt_in" type="array">
+      <obj_property name="ElementShortName">mcnt_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mcnt_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/r_reg" type="logic">
+      <obj_property name="ElementShortName">r_reg</obj_property>
+      <obj_property name="ObjectShortName">r_reg</obj_property>
+   </wvobject>
+</wave_config>

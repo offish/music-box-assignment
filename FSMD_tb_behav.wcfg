@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FSMD_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FSMD_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4.388000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="10.178000001 ms"></ZoomEndTime>
+      <Cursor1Time time="10.000000000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/FSMD_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/code_converter_unit/ram_data" type="array">
+      <obj_property name="ElementShortName">ram_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/code_converter_unit/mcnt_in" type="array">
+      <obj_property name="ElementShortName">mcnt_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mcnt_in[17:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/r_next" type="logic">
+      <obj_property name="ElementShortName">r_next</obj_property>
+      <obj_property name="ObjectShortName">r_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/control_path_unit/write_to_ram_enable" type="logic">
+      <obj_property name="ElementShortName">write_to_ram_enable</obj_property>
+      <obj_property name="ObjectShortName">write_to_ram_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/uart_unit/output" type="array">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/code_converter_unit/mcnt_in" type="array">
+      <obj_property name="ElementShortName">mcnt_in[17:0]</obj_property>
+      <obj_property name="ObjectShortName">mcnt_in[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/ram_unit/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/zero_tick" type="logic">
+      <obj_property name="ElementShortName">zero_tick</obj_property>
+      <obj_property name="ObjectShortName">zero_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/r_reg" type="logic">
+      <obj_property name="ElementShortName">r_reg</obj_property>
+      <obj_property name="ObjectShortName">r_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/r_next" type="logic">
+      <obj_property name="ElementShortName">r_next</obj_property>
+      <obj_property name="ObjectShortName">r_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_mod_unit/q" type="array">
+      <obj_property name="ElementShortName">q[17:0]</obj_property>
+      <obj_property name="ObjectShortName">q[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_mod_unit/zero_tick" type="logic">
+      <obj_property name="ElementShortName">zero_tick</obj_property>
+      <obj_property name="ObjectShortName">zero_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/control_path_unit/clear_flipflop" type="logic">
+      <obj_property name="ElementShortName">clear_flipflop</obj_property>
+      <obj_property name="ObjectShortName">clear_flipflop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/FSMD_tb/uut/flip_flop_unit/square_wave_loudspeaker" type="logic">
+      <obj_property name="ElementShortName">square_wave_loudspeaker</obj_property>
+      <obj_property name="ObjectShortName">square_wave_loudspeaker</obj_property>
+   </wvobject>
+</wave_config>

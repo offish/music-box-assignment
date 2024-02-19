@@ -15,7 +15,7 @@ architecture arch of ff is
         -- the code for the flip flop
     process(clock,reset) --indicates that everything executes sequentially
     begin
-    if(reset = '0') then
+    if(reset = '1') then
         r_reg <='0';
     elsif rising_edge(clock) then --when clock is high then state is copied
         r_next <= r_reg;
