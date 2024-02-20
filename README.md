@@ -25,17 +25,21 @@ To create this functionality we figured we needed several components for our pro
 - Flip Flop (Aditi)
 - Timer (Oscar)
 - Control Path (Shahin and Christopher)
+- Top module(Aditi)
 
 ## Diagrams
 
 We created diagrams before we started to implement the components: 
 
 1. FSMD Chart (Aditi)
+
 2. ASMD Chart (Shahin and Christopher)
 
 These were created and used as a blueprint for trying to make sure that we all were on the same logical track.
 
 ## Result
 
+The result was not what we expected. If one observes the simulation file, we send asciii codes but they never become square wave outputs. This is most probably because the ram is not storing the data until enter is pressed, it is sending it forward to the code converter at once. If we had more time, we would look at why this problem happened and try to solve this. We have learnt a lot through this project, and taken with us rich knowledge.
+![alt text](image.png)
 
 
