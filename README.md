@@ -31,10 +31,14 @@ To create this functionality we figured we needed several components for our pro
 
 We created diagrams before we started to implement the components: 
 
-1. FSMD Chart (Aditi)
+1. FSMD Chart (Aditi) <br />
 
-2. ASMD Chart (Shahin and Christopher)
+![FSMD Chart](image-1.png)
 
+
+2. ASMD Chart (Shahin and Christopher) <br />
+
+![ASMD Chart](image-2.png)
 These were created and used as a blueprint for trying to make sure that we all were on the same logical track.
 
 ## Result
